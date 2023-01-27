@@ -7,5 +7,7 @@ So I decided to write this two-part script in order to run this game, for starte
 
 ## Installation
 
+Just download and unzip the project wherever you want :wink:</br></br>
+![Screenshot 2023-01-26 230348](https://user-images.githubusercontent.com/1012931/215014229-233fd808-1cfc-48cc-bb57-57ff9efde3a5.png)
 
 ## How to use it
