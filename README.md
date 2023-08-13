@@ -1,5 +1,5 @@
 # Steam Prototype Launcher
-A Launcher for Steam's Prototype game that automatically changes the ProcessorAffinity.
+A Launcher for Steam's Prototype and Prototype 2 games that automatically changes the ProcessorAffinity.
 
 I've been running Prototype in Windows 11 but I was getting tired of manually changing the ProcessorAffinity so I found this trick of creating a batch file and then calling "start /affinity FF <steam_games_path>/prototypef.exe" but it did not work for me as it seems it is disabled for security reasons (don't quote me) also in my case in order for this fix to work both the steam.exe and prototypef.exe needs to be changed to use 8 cores.
 
@@ -16,18 +16,18 @@ Just download and unzip the project wherever you want :wink:</br></br>
 <li>
   If the Steam App or the Game library is not located in the default location then you must update the "PrototypeScript.ps1" with the right paths.
 
-  Open the file with a text editor such as notepad and modify the lines 3 and 11.
+  Open the file with a text editor such as notepad and modify the lines 3, 11 and 12.
 
   ```powershell
   $global:steam_path = "C:\Program Files (x86)\Steam\steam.exe"
 
-  $global:prototype_path = "C:\Program Files (x86)\Steam\steamapps\common\Prototype\prototypef.exe"
+  $global:prototype1_path = "C:\Program Files (x86)\Steam\steamapps\common\Prototype\prototypef.exe"
   ```
   </br>
 </li>
 
 <li>
-  Double click the file "PrototypeLauncher.bat" select the first option by pressing 1 and then enter to run the game.
+  Double click the file "PrototypeLauncher.bat" and select either option 1 or 2 to run either Prototype 1 or 2 respectively.
 
   </br>
 
