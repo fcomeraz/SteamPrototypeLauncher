@@ -22,6 +22,7 @@ Just download and unzip the project wherever you want :wink:</br></br>
   $global:steam_path = "C:\Program Files (x86)\Steam\steam.exe"
 
   $global:prototype1_path = "C:\Program Files (x86)\Steam\steamapps\common\Prototype\prototypef.exe"
+  $global:prototype2_path = "C:\Program Files (x86)\Steam\steamapps\common\Prototype 2\prototype2.exe"
   ```
   </br>
 </li>
